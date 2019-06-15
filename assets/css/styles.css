@@ -1,0 +1,93 @@
+header{
+    font-size: 40px;
+}
+body {
+    width: auto;
+    height: auto;
+    background-color: #000000;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 7s;
+    animation-name: example;
+    -moz-animation-iteration-count: 7s;
+    animation-iteration-count: 7;
+    color: #ffd700;
+    text-align: center;
+    border: #ffffff;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 20px;
+  }
+
+  h1,
+  h3 {
+    text-shadow: 5px 5px 8px #ff0000;
+  }
+
+  h2 {
+   margin: 23px 0px;
+   
+  }
+
+  #Trivia {
+      color: #ff0000;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+    from {background-color: #000000;}
+    to {background-color: rgb(3, 71, 3);}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    from {background-color: #000000;}
+    to {background-color: rgb(3, 71, 3);}
+}
+
+.buttons {
+margin-top: 30px;
+
+
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+  background-color: #ffd700;
+  width: 250px;
+  font-size: 20px;
+  color: #ffffff;
+  border: 1px solid #1d3c6b;
+  border-radius: 50px;
+  margin: 10px 40px 10px 0px;
+  padding: 10px 10px;
+  box-shadow: 5px 5px 8px #ffffff;  
+
+}
+
+#questions {
+
+  color: #fffff;
+}
+
+#progress {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+   cursor: pointer;
+   background-color: #ff0000;
+}
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+  outline: 0;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.choices {
+  padding: 5px;
+  margin-top: 5px;
+  padding-bottom: 50px;
+
+}
